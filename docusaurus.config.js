@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '技术学习的历程 - 浅笑Azusa的小世界',
+  title: '美月もも的后花园',
   tagline: 'Dinosaurs are cool',
   url: 'https://www.qxazusa.xyz',
   baseUrl: '/',
@@ -24,7 +24,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'zh-Hans',
-    locales: ['zh-Hans'],
+    locales: ['zh-Hans','ja-jp','en'],
   },
 
   presets: [
@@ -70,12 +70,11 @@ const config = {
         },
         items: [
           {to: '/blog', label: 'Blog', position: 'left'},
+          
           {
-            type: 'doc',
-            docId: 'wiki',
-            position: 'left',
-            label: 'Wiki',
-          },
+            type: 'localeDropdown',
+            position: 'right',
+          }
         ],
       },
       footer: {
@@ -87,45 +86,17 @@ const config = {
               {
                 label:'文章',
                 to:'/blog'
-              },
-              {
-                label:'Wiki',
-                to:'/docs/wiki'
-              },
-              {
-                label: '关于我',
-                to: '/about-me',
-              },
+              }
             ],
           },
           {
             title: '社交账号',
             items: [
-              {
-                label: 'Github',
-                href: 'https://github.com/QXAzusa',
-              },
-              {
-                label: 'Steam',
-                href: 'https://steamcommunity.com/profiles/76561198416930740',
-              },
-              {
-                label: 'Blibili',
-                href: 'https://space.bilibili.com/148833361',
-              },
             ],
           },
           {
             title: '更多',
             items: [
-              {
-                label: '联系方式',
-                to: '/contact-me',
-              },
-              {
-                label: '旧版(Powered by Hexo)',
-                href: 'https://hexo.qxazusa.xyz/',
-              }
             ],
           },
         ],
