@@ -69,8 +69,6 @@ const config = {
           src: '//static.qxazusa.xyz/public/image/favicon.png_favicon',
         },
         items: [
-          {to: '/blog', label: 'Blog', position: 'left'},
-          
           {
             type: 'localeDropdown',
             position: 'right',
@@ -83,10 +81,6 @@ const config = {
           {
             title: '网站地图',
             items: [
-              {
-                label:'文章',
-                to:'/blog'
-              }
             ],
           },
           {
