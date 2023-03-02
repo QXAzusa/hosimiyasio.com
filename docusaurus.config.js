@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: '美月もも的后花园',
   tagline: 'Dinosaurs are cool',
-  url: 'https://www.qxazusa.xyz',
+  url: 'https://mitsuki.qxazusa.xyz',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
