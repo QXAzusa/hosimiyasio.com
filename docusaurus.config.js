@@ -44,11 +44,6 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-        gtag:{
-          trackingID: 'G-MD28TLTYRQ',
-          anonymizeIP: false,
-          id: 'default'
-        },
         sitemap: {
           changefreq: 'daily',
           priority: 0.5,
@@ -96,6 +91,12 @@ const config = {
         src: 'https://static.qxazusa.xyz/docusaurus/script/clipboard.min.js',
         async: true,
       },
+      {
+        src: 'https://analytics.qxazusa.xyz/clipboard.js',
+        async: true,
+        defer: true,
+        'data-website-id': 'b24fb8de-890f-43b3-bc51-33d742128385'
+      }
     ]
 };
 
