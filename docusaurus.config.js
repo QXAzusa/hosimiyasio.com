@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '美月もも的后花园',
+  title: 'HosimiyaSio',
   tagline: 'Dinosaurs are cool',
-  url: 'https://mitsuki.qxazusa.xyz',
+  url: 'https://hosimiyasio.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -24,7 +24,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'zh-Hans',
-    locales: ['zh-Hans','ja-jp','en'],
+    locales: ['zh-Hans'],
   },
 
   presets: [
@@ -58,7 +58,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: '浅笑Azusa的小世界',
+        title: 'HosimiyaSio',
         logo: {
           alt: 'Site Logo',
           src: '//static.qxazusa.xyz/public/image/favicon.png_favicon',
