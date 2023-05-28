@@ -96,20 +96,19 @@ const config = {
           },
         ],
         copyright: `<div id="footer_pc">Copyright © ${new Date().getFullYear()} QXAzusa&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Powered by Docusaurus&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener" style="text-decoration: none;color:var(--ifm-footer-link-color)!important">苏ICP备0000000000号-1</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.beian.gov.cn/portal/registerSystemInfo" target="_blank" rel="noopener" style="text-decoration: none;color:var(--ifm-footer-link-color)!important">苏公网安备 00000000000000号</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://icp.gov.moe/" target="_blank" style="text-decoration: none;color:var(--ifm-footer-link-color)!important">萌ICP备00000000号</a><br></div>
-
         <div id="footer_mobile">
         <br><a href="https://icp.gov.moe/?keyword=20220417" target="_blank" style="text-decoration: none;color:var(--ifm-footer-link-color)!important">萌ICP备00000000号</a>
         <br><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener" style="text-decoration: none;color:var(--ifm-footer-link-color)!important">苏ICP备0000000000号-1</a>
         <br><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=32081202000264" target="_blank" rel="noopener" style="text-decoration: none;color:var(--ifm-footer-link-color)!important">苏公网安备 00000000000000号</a><br>
         Copyright © ${new Date().getFullYear()} QXAzusa
-        <br>Powered by Docusaurus      },
+        <br>Powered by Docusaurus`},
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-      metadata: [{name: 'referrer', content: 'always'}],
+      metadata: [{name: 'referrer', content: 'always'},{name: 'unami-website-id', content: 'e26300ec-c5e8-4adc-88f5-bf4d3cf19d09'}],
     }),
-  scripts: [
+    scripts: [
       {
         src: 'https://cdn.staticfile.org/jquery/3.6.1/jquery.min.js',
         async: false,
@@ -119,10 +118,9 @@ const config = {
         async: true,
       },
       {
-        src: 'https://analytics.qxazusa.xyz/clipboard.js',
+        src: 'https://static.qxazusa.xyz/public/script/s-l.min.js',
         async: true,
         defer: true,
-        'data-website-id': 'b24fb8de-890f-43b3-bc51-33d742128385'
       }
     ]
 };
