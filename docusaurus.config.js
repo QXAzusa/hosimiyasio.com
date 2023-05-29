@@ -61,7 +61,7 @@ const config = {
         title: 'HosimiyaSio',
         logo: {
           alt: 'Site Logo',
-          src: '//static.qxazusa.xyz/public/image/favicon.png_favicon',
+          src: '//static.qxazusa.xyz/public/image/favicon.png?x-image-process=style/favicon',
         },
         items: [
           {to: '/blog', label: 'Blog', position: 'left'},

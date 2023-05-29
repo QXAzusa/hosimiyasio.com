@@ -47,7 +47,7 @@ function MyHero() {
         </div>
       </div>
       <div className={styles.rightContainer}>
-        <img src='//static.qxazusa.xyz/' alt='HeroImg' />
+        <img src='//static.qxazusa.xyz/blank' alt='HeroImg' />
       </div>
     </div>
   )
