@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: '汐明之恋 - 星宫汐',
   tagline: 'Dinosaurs are cool',
-  url: 'https://hosimiyasio.com',
+  url: 'https://www.hosimiyasio.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
