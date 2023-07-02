@@ -65,11 +65,6 @@ const config = {
         },
         items: [
           {to: '/blog', label: 'Blog', position: 'left'},
-          
-          {
-            type: 'localeDropdown',
-            position: 'right',
-          }
         ],
       },
       footer: {
