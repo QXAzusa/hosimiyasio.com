@@ -84,15 +84,15 @@ const config = {
             items: [
               {
                 label: '哔哩哔哩-主页',
-                href: 'https://space.bilibili.com/402417817',
+                href: 'https://link.hosimiyasio.com/?target=https://space.bilibili.com/402417817',
               },
               {
                 label: '哔哩哔哩-直播间',
-                href: 'https://live.bilibili.com/22047448',
+                href: 'https://link.hosimiyasio.com/?target=https://live.bilibili.com/22047448',
               },
               {
-                label: 'Blibili',
-                href: 'https://space.bilibili.com/148833361',
+                label: 'Twitter',
+                href: 'https://link.hosimiyasio.com/?target=https://twitter.com/Hosimiya_Sio',
               }
             ],
           },
@@ -101,7 +101,11 @@ const config = {
             items: [
               {
                 label: '官方主页',
-                href: 'https://hosimiyasio-official.com/',
+                href: 'https://link.hosimiyasio.com/?target=https://hosimiyasio-official.com/',
+              },
+              {
+                label: '版权相关',
+                href: '../copyright',
               }
             ],
           },
