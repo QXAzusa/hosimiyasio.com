@@ -65,6 +65,7 @@ const config = {
         },
         items: [
           {to: '/blog', label: 'Blog', position: 'left'},
+          {label:'历程',to:'/timeline'}
         ],
       },
       footer: {
@@ -76,6 +77,10 @@ const config = {
               {
                 label:'文章',
                 to:'/blog'
+              },
+              {
+                label:'历程',
+                to:'/timeline'
               }
             ],
           },
@@ -105,7 +110,7 @@ const config = {
               },
               {
                 label: '版权相关',
-                href: '../copyright',
+                to: '/copyright',
               }
             ],
           },
