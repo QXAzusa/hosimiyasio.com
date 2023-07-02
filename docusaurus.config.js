@@ -6,13 +6,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'HosimiyaSio',
+  title: '汐明之恋',
   tagline: 'Dinosaurs are cool',
   url: 'https://hosimiyasio.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: '//static.qxazusa.xyz/public/image/favicon.png?x-image-process=style/favicon',
+  favicon: '//static.qxazusa.xyz/sio/image/favicon.jpg?x-image-process=style/favicon',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -58,10 +58,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'HosimiyaSio',
+        title: '汐明之恋',
         logo: {
           alt: 'Site Logo',
-          src: '//static.qxazusa.xyz/public/image/favicon.png?x-image-process=style/favicon',
+          src: '//static.qxazusa.xyz/sio/image/favicon.jpg?x-image-process=style/favicon',
         },
         items: [
           {to: '/blog', label: 'Blog', position: 'left'},
@@ -85,13 +85,29 @@ const config = {
             ],
           },
           {
-            title: '社交账号',
+            title: '官方账号',
             items: [
+              {
+                label: '哔哩哔哩-主页',
+                href: 'https://space.bilibili.com/402417817',
+              },
+              {
+                label: '哔哩哔哩-直播间',
+                href: 'https://live.bilibili.com/22047448',
+              },
+              {
+                label: 'Blibili',
+                href: 'https://space.bilibili.com/148833361',
+              }
             ],
           },
           {
             title: '更多',
             items: [
+              {
+                label: '官方主页',
+                href: 'https://hosimiyasio-official.com/',
+              }
             ],
           },
         ],
