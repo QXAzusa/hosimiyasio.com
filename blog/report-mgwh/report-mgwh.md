@@ -1,13 +1,14 @@
 ---
 title: 有关公会问题的报告
-slug: 20230704-mgwh
+slug: report-mgwh
 date: 2023-07-04 20:28:00
 authors: [hsio,translator_neo]
-tags: ['日常']
+tags: ['事件报告']
 ---
 私は6月30日をもって前のギルドを脱退しました。
 <!--truncate-->
 ## 原文
+![示例](./exit-msg.png)
 今回はギルドについてお話したいと思います。
 
 私は6月30日をもって前のギルドを脱退しました。

@@ -1,8 +1,8 @@
 qxazusa:
   name: 浅笑Azusa
-  title: Who own this site.
+  title: 网站运营
   url: https://github.com/QXAzusa
-  image_url: //static.qxazusa.xyz/public/image/avatar.png_docusaurus
+  image_url: ../img/avatar_webmaster.png
 hsio:
   name: 星宮 汐
   title: 作者
@@ -10,6 +10,11 @@ hsio:
   image_url: ../img/avatar_hsio.jpg
 translator_neo:
   name: Neo 猫山まっしぐら
-  title: 译者
+  title: 中文翻译
   url: https://space.bilibili.com/507250
   image_url: ../img/avatar_neo.jpg
+translator_unknown:
+  name: 不详
+  title: 中文翻译
+  #url: https://space.bilibili.com/0
+  image_url: ../img/avatar_unknown.jpg
