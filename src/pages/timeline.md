@@ -4,6 +4,9 @@ date: 2021-07-12 21:25:31
 comments: false
 ---
 # 历程
+## 2023年
+### 7月5日
+受6月17日BLS工会信息泄露影响，公开宣布已于6月30日退出公会“萌鸽文化”
 ## 2022年
 ### 9月13日
 Twitter账号粉丝数首次突破3万 [-> 相关推文](https://link.hosimiyasio.com/?target=https://twitter.com/Hosimiya_Sio/status/1569589827728994304)
