@@ -58,7 +58,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: '汐明之恋',
+        title: '汐明之恋 - Unofficial',
         logo: {
           alt: 'Site Logo',
           src: '//static.qxazusa.xyz/sio/image/favicon.jpg?x-image-process=style/favicon',
@@ -111,6 +111,10 @@ const config = {
               {
                 label: '版权相关',
                 to: '/copyright',
+              },
+              {
+                label: '关于本站',
+                to: '/about',
               }
             ],
           },
