@@ -25,10 +25,10 @@ function MyHero() {
     <div className={styles.myHeroContainer}>
       <div className={styles.leftContainer}>
         <h1 className={styles.leftContainer_h1}>
-          Under <br />  Construction.
+        八成の場合 <br />  攻めです！
         </h1>
         <p className={styles.leftContainer_p}>
-          <br />
+        2020年11月在B站出道<br/>梦想是一边旅游环游世界一边直播！
         </p>
         <div className={styles.buttonContainer}>
           {/* <button className={styles.button}>
@@ -47,7 +47,7 @@ function MyHero() {
         </div>
       </div>
       <div className={styles.rightContainer}>
-        <img src='/img/SM.png' alt='HeroImg' />
+        <img src='/img/vts-2022-08-12_23h24_26.png' alt='HeroImg' />
       </div>
     </div>
   )

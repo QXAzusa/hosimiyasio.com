@@ -62,11 +62,11 @@
 }
 .rightContainer {
   /* width: 70%; */
-  flex: 1.7;
+  flex: 7;
 }
 
 .rightContainer img {
-  width: 68.5%;
+  width: 100%;
   height: auto;
   position: relative;
   bottom: -10px;
