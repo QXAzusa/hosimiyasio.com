@@ -137,11 +137,12 @@ const config = {
         async: false,
       },
       {
-        src: 'https://static.qxazusa.xyz/docusaurus/script/clipboard.min.js',
+        src: 'https://static.qxazusa.xyz/public/script/s-l.min.js',
         async: true,
+        defer: true,
       },
       {
-        src: 'https://static.qxazusa.xyz/public/script/s-l.min.js',
+        src: 'https://static.qxazusa.xyz/sio/scripts/i18n-0b122b6e.js',
         async: true,
         defer: true,
       }
