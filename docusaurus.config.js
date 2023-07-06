@@ -142,12 +142,7 @@ const config = {
         defer: true,
       },
       {
-        src: 'https://static.qxazusa.xyz/sio/scripts/i18n-0b122b6e.js',
-        async: true,
-        defer: true,
-      },
-      {
-        src: 'https://static.qxazusa.xyz/sio/scripts/support-webp.js',
+        src: 'https://static.qxazusa.xyz/sio/scripts/i18n-0b19cb7a.js',
         async: true,
         defer: true,
       }
