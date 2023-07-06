@@ -11,4 +11,4 @@ comments: false
 此图片已使用隐写技术处理，请勿盗用
 ## “历程”页
 ### 2023.07.02版本 [页面存档](../archive-page/20230702-timeline)
-修改、使用了萌娘百科页面内容[“星宫汐”的版本2023年6月28日 (三) 19:05](https://zh.moegirl.org.cn/index.php?title=%E6%98%9F%E5%AE%AB%E6%B1%90&oldid=6924571) 
+修改、使用了萌娘百科页面内容[“星宫汐”的版本2023年6月28日 (三) 19:05](https://link.hosimiyasio.com/?target=https://zh.moegirl.org.cn/index.php?title=%E6%98%9F%E5%AE%AB%E6%B1%90&oldid=6924571) 
