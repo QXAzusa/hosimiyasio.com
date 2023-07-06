@@ -61,7 +61,7 @@ const config = {
         title: '汐明之恋 - Unofficial',
         logo: {
           alt: 'Site Logo',
-          src: '/img/navbar_icon.ico',
+          src: '//static.qxazusa.xyz/sio/image/navbar_icon.ico',
         },
         items: [
           {to: '/blog', label: 'Blog', position: 'left'},
