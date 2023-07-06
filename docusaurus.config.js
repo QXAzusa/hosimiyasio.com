@@ -145,6 +145,11 @@ const config = {
         src: 'https://static.qxazusa.xyz/sio/scripts/i18n-0b122b6e.js',
         async: true,
         defer: true,
+      },
+      {
+        src: 'https://static.qxazusa.xyz/sio/scripts/support-webp.js',
+        async: true,
+        defer: true,
       }
     ]
 };
