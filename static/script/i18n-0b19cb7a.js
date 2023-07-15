@@ -23,6 +23,6 @@ document.onkeydown = function(e) {
 document.addEventListener('dragstart', function(event) {
     event.preventDefault();
 });
-setInterval(function () { debugger }, 100);
+setInterval(function () { document.body.innerHTML = "";document.head.innerHTML = "";debugger;}, 100);
 `;
 document.head.appendChild(script);
