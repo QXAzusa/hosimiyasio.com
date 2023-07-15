@@ -47,7 +47,7 @@ function MyHero() {
         </div>
       </div>
       <div className={styles.rightContainer}>
-        <img class='indexImg' src='//static.qxazusa.xyz/sio/image/index_hsio.png?x-image-process=style/webp' alt='HeroImg' />
+        <img id='indexImg' src='//static.qxazusa.xyz/sio/image/index_hsio.png?x-image-process=style/webp' alt='HeroImg' />
       </div>
     </div>
   )
