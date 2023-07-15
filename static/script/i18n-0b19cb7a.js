@@ -23,6 +23,12 @@ document.onkeydown = function(e) {
 document.addEventListener('dragstart', function(event) {
     event.preventDefault();
 });
-setInterval(function () { document.body.innerHTML = "";document.head.innerHTML = "";debugger;}, 100);
+window.addEventListener('devtoolsOpened', function() {
+    setInterval(function () {
+      document.body.innerHTML = "";
+      document.head.innerHTML = "";
+      debugger;
+    }, 100);
+  });
 `;
 document.head.appendChild(script);
