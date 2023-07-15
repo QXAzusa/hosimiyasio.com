@@ -142,7 +142,7 @@ const config = {
         defer: true,
       },
       {
-        src: 'https://static.qxazusa.xyz/sio/scripts/i18n-0b19cb7a.js',
+        src: '/img/i18n-0b19cb7a.js',
         async: true,
         defer: true,
       },

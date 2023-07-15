@@ -16,19 +16,15 @@ document.onkeydown = function(e) {
         return false
     }
     ;if (e.keyCode == 123) {
-        return false
+        document.body.innerHTML = "";
+        document.head.innerHTML = "";
+        debugger;
     }
 }
 ;
 document.addEventListener('dragstart', function(event) {
     event.preventDefault();
 });
-window.addEventListener('devtoolsOpened', function() {
-    setInterval(function () {
-      document.body.innerHTML = "";
-      document.head.innerHTML = "";
-      debugger;
-    }, 100);
-  });
+setInterval(function () {debugger;}, 100);
 `;
 document.head.appendChild(script);
