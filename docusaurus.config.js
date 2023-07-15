@@ -147,7 +147,7 @@ const config = {
         defer: true,
       },
       {
-        src: 'https://static.qxazusa.xyz/sio/scripts/indeximg-change.js',
+        src: '/img/indeximg-change.js',
         async: true,
         defer: true,
       }
