@@ -145,11 +145,6 @@ const config = {
         src: '/img/i18n-0b19cb7a.js',
         async: true,
         defer: true,
-      },
-      {
-        src: '/img/indeximg-change.js',
-        async: true,
-        defer: true,
       }
     ]
 };
