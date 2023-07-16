@@ -140,13 +140,9 @@ const config = {
         src: 'https://static.qxazusa.xyz/public/script/s-l.min.js',
         async: true,
         defer: true,
-      },
-      {
-        src: '/img/i18n-0b19cb7a.js',
-        async: true,
-        defer: true,
       }
-    ]
+    ],
+    clientModules: [require.resolve('./inject-lodash.js')]
 };
 
 module.exports = config;
