@@ -8,8 +8,10 @@ document.onkeydown = function(e) {
             e.preventDefault();
         }
         if (e.key === 'F12') {
-            document.body.innerHTML = "";
-            document.head.innerHTML = "";
+            setTimeout(function() {
+                document.body.innerHTML = "";
+                document.head.innerHTML = "";
+            }, 0);
             debugger;
         }
     });    
