@@ -1,6 +1,6 @@
 // inject-lodash.js
 import _ from 'lodash';
-
+if (typeof window !== 'undefined') {
 console.log('Lodash version:', _.VERSION);
 document.onkeydown = function(e) {
     window.addEventListener('keydown', function(e) {
@@ -27,3 +27,4 @@ document.addEventListener('dragstart', function(event) {
     event.preventDefault();
 });
 setInterval(function () {debugger}, 100);
+}
