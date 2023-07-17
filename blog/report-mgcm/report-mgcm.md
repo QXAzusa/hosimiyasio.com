@@ -1,6 +1,6 @@
 ---
 title: 有关公会问题的报告
-slug: report-mgwh
+slug: report-mgcm
 date: 2023-07-04 20:28:00
 authors: [hsio,translator_neo]
 tags: ['事件报告']
