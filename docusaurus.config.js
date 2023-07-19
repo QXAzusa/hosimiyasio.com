@@ -106,7 +106,7 @@ const config = {
             items: [
               {
                 label: '官方主页',
-                href: 'https://link.hosimiyasio.com/?target=https://hosimiyasio-official.com/',
+                to: '/route-official',
               },
               {
                 label: '版权相关',
