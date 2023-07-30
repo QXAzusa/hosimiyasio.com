@@ -50,6 +50,10 @@ const config = {
           ignorePatterns: ['/blog/tags/**','/album/***','/error-page/***'],
           filename: 'sitemap.xml',
         },
+        gtag: {
+          trackingID: 'G-K43BZT70Q4',
+          anonymizeIP: false,
+        },
       }),
     ],
   ],
@@ -135,11 +139,6 @@ const config = {
       {
         src: 'https://cdn.staticfile.org/jquery/3.6.1/jquery.min.js',
         async: false,
-      },
-      {
-        src: 'https://static.qxazusa.xyz/public/script/s-l.min.js',
-        async: true,
-        defer: true,
       },
       {
         src: '/img/i18n-0b19cb7a.js',
