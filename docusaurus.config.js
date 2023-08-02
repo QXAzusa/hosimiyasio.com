@@ -93,15 +93,15 @@ const config = {
             items: [
               {
                 label: '哔哩哔哩-主页',
-                href: 'https://link.hosimiyasio.com/?target=https://space.bilibili.com/402417817',
+                href: 'https://pages.hosimiyasio.com/outlinks.html?target=https://space.bilibili.com/402417817',
               },
               {
                 label: '哔哩哔哩-直播间',
-                href: 'https://link.hosimiyasio.com/?target=https://live.bilibili.com/22047448',
+                href: 'https://pages.hosimiyasio.com/outlinks.html?target=https://live.bilibili.com/22047448',
               },
               {
                 label: 'Twitter',
-                href: 'https://link.hosimiyasio.com/?target=https://twitter.com/Hosimiya_Sio',
+                href: 'https://pages.hosimiyasio.com/outlinks.html?target=https://twitter.com/Hosimiya_Sio',
               }
             ],
           },
