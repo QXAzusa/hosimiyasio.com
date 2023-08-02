@@ -22,7 +22,7 @@ Twitter账号粉丝数首次突破3万 [-> 相关推文](https://pages.hosimiyas
 ### 12月1日
 新衣装发布回。[【直播回放】【B限】新衣服 2021年12月1日18点场-哔哩哔哩](https://pages.hosimiyasio.com/outlinks.html?target=https://b23.tv/BV163411b7bY)
 ### 11月11日
-Twitter账号粉丝数首次突破2万！[Twitter 2万粉发推动态](https://pages.hosimiyasio.com/outlinks.html?target=https://twitter.com/Hosimiya_Sio/status/1458659171818110977)
+Twitter账号粉丝数首次突破2万！~~[Twitter 2万粉发推动态](https://pages.hosimiyasio.com/outlinks.html?target=https://twitter.com/Hosimiya_Sio/status/1458659171818110977)~~
 ### 10月26日
 新衣装发布回。[【直播回放】【B限】新衣服和恐怖游戏 2021年10月25日18点场-哔哩哔哩](https://pages.hosimiyasio.com/outlinks.html?target=https://b23.tv/BV1y44y1v7D3)
 ### 8月26日
