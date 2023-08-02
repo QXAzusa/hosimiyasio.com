@@ -5,6 +5,8 @@ comments: false
 ---
 # 历程
 ## 2023年
+### 7月16日
+2023年生日会举办 [-> 直播回放](https://pages.hosimiyasio.com/outlinks.html?target=https://b23.tv/BV1ij411o7VW)
 ### 7月5日
 公开宣布已于6月30日退出公会“萌鸽文化”
 ## 2022年
@@ -13,7 +15,7 @@ Twitter账号粉丝数首次突破3万 [-> 相关推文](https://pages.hosimiyas
 ### 7月21日
 达成哔哩哔哩“千人舰队”成就
 ### 7月15日
-生日会+新衣装发布回 [-> 直播回放](https://pages.hosimiyasio.com/outlinks.html?target=https://b23.tv/BV1VU4y1B7eC)
+2022年生日会+新衣装发布回 [-> 直播回放](https://pages.hosimiyasio.com/outlinks.html?target=https://b23.tv/BV1VU4y1B7eC)
 ### 3月15日
 个人装扮正式发售
 ## 2021年
