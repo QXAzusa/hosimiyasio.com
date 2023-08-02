@@ -117,6 +117,10 @@ const config = {
                 to: '/copyright',
               },
               {
+                label: 'Gitlab',
+                href: 'https://pages.hosimiyasio.com/outlinks.html?target=https://gitlab.com/QXAzusa/hosimiyasio.com',
+              },
+              {
                 label: '关于本站',
                 to: '/about',
               }
