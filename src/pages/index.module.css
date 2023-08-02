@@ -48,10 +48,6 @@
 
 }
 
-#upyun_logo {
-  width:4%!important
-}
-
 @media only screen and (max-width: 1200px){
   .myHeroContainer {padding: 0 0 0 0!important;flex-direction: column!important;align-items: flex-start!important;justify-content: flex-end!important;align-items: stretch!important;}
   .leftContainer {padding: 7rem 0 0 1rem!important}
