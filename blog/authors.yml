@@ -2,24 +2,24 @@ qxazusa:
   name: 浅笑Azusa
   title: 网站运营
   url: https://pages.hosimiyasio.com/outlinks.html?target=https://www.qxazusa.xyz
-  image_url: //static.qxazusa.xyz/sio/image/avatar_webmaster.png?x-image-process=style/webp
+  image_url: //static.hosimiyasio.com/image/avatar_webmaster.png?x-oss-process=style/webp
 hsio:
   name: 星宮 汐
   title: 作者
   url: https://pages.hosimiyasio.com/outlinks.html?target=https://space.bilibili.com/402417817
-  image_url: //static.qxazusa.xyz/sio/image/avatar_hsio.jpg?x-image-process=style/webp
+  image_url: //static.hosimiyasio.com/image/avatar_hsio.jpg?x-oss-process=style/webp
 translator_neo:
   name: Neo 猫山まっしぐら
   title: 中文翻译
   url: https://pages.hosimiyasio.com/outlinks.html?target=https://space.bilibili.com/507250
-  image_url: //static.qxazusa.xyz/sio/image/avatar_neo.jpg?x-image-process=style/webp
+  image_url: //static.hosimiyasio.com/image/avatar_neo.jpg?x-oss-process=style/webp
 translator_unknown:
   name: 不详
   title: 中文翻译
   #url: https://space.bilibili.com/0
-  image_url: //static.qxazusa.xyz/sio/image/avatar_unknown.jpg?x-image-process=style/webp
+  image_url: //static.hosimiyasio.com/image/avatar_unknown.jpg?x-oss-process=style/webp
 fansub:
   name: 星宫汐的企鹅队
   title: 字幕组
   url: https://space.bilibili.com/1930177175
-  image_url: //static.qxazusa.xyz/sio/image/avatar_fansub.jpg?x-image-process=style/webp
+  image_url: //static.hosimiyasio.com/image/avatar_fansub.jpg?x-oss-process=style/webp

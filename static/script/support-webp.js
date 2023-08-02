@@ -17,7 +17,7 @@
       if (isWebpSupported) {
         var images = document.querySelectorAll('.indexImg');
         images.forEach(function (image) {
-          image.src = image.src + '?x-image-process=style/webp';
+          image.src = image.src + '?x-oss-process=style/webp';
         });
       }
     });

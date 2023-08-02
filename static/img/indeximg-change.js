@@ -5,7 +5,7 @@ var observer = new MutationObserver(function(mutations) {
       var imgElement = document.getElementById('indexImg');
       if (imgElement != null){
         var newValue = htmlElement.getAttribute('data-theme');
-        imgElement.src = 'https://static.qxazusa.xyz/sio/image/illustration_hsio_wm.'+ newValue +'.png?x-image-process=style/webp';}
+        imgElement.src = 'https://static.hosimiyasio.com/image/illustration_hsio_wm.'+ newValue +'.png?x-oss-process=style/webp';}
         console.info('Switch To ' + newValue)
     }
   });
