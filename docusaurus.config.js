@@ -93,15 +93,15 @@ const config = {
             items: [
               {
                 label: '哔哩哔哩-主页',
-                href: 'https://pages.hosimiyasio.com/outlinks.html?target=https://space.bilibili.com/402417817',
+                href: 'https://page.hosimiyasio.com/outlinks.html?target=https://space.bilibili.com/402417817',
               },
               {
                 label: '哔哩哔哩-直播间',
-                href: 'https://pages.hosimiyasio.com/outlinks.html?target=https://live.bilibili.com/22047448',
+                href: 'https://page.hosimiyasio.com/outlinks.html?target=https://live.bilibili.com/22047448',
               },
               {
                 label: 'Twitter',
-                href: 'https://pages.hosimiyasio.com/outlinks.html?target=https://twitter.com/Hosimiya_Sio',
+                href: 'https://page.hosimiyasio.com/outlinks.html?target=https://twitter.com/Hosimiya_Sio',
               }
             ],
           },
@@ -118,7 +118,7 @@ const config = {
               },
               {
                 label: 'Gitlab',
-                href: 'https://pages.hosimiyasio.com/outlinks.html?target=https://gitlab.com/QXAzusa/hosimiyasio.com',
+                href: 'https://page.hosimiyasio.com/outlinks.html?target=https://gitlab.com/QXAzusa/hosimiyasio.com',
               },
               {
                 label: '关于本站',
