@@ -86,7 +86,8 @@ const config = {
               {
                 label:'历程',
                 to:'/timeline'
-              }
+              },
+              {label:'字幕组招募',to:'/fansub-recruit'}
             ],
           },
           {
