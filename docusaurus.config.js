@@ -69,7 +69,8 @@ const config = {
         },
         items: [
           {to: '/blog', label: 'Blog', position: 'left'},
-          {label:'历程',to:'/timeline'}
+          {label:'历程',to:'/timeline'},
+          {label:'字幕组招募',to:'/fansub-recruit'}
         ],
       },
       footer: {
