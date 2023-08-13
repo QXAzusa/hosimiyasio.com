@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: '//static.hosimiyasio.com/image/favicon.jpg?x-oss-process=style/favicon',
+  favicon: 'https://static.hosimiyasio.com/image/favicon.jpg?x-oss-process=style/favicon',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -65,7 +65,7 @@ const config = {
         title: '汐明之恋 - Unofficial',
         logo: {
           alt: 'Site Logo',
-          src: '//static.hosimiyasio.com/image/navbar_icon.ico',
+          src: 'https://static.hosimiyasio.com/image/navbar_icon.ico',
         },
         items: [
           {to: '/blog', label: 'Blog', position: 'left'},
