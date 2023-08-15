@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'https://static.hosimiyasio.com/image/favicon.jpg?x-oss-process=style/favicon',
+  favicon: 'https://static.hosimiyasio.com/image/favicon.jpg',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -47,7 +47,7 @@ const config = {
         sitemap: {
           changefreq: 'daily',
           priority: 0.5,
-          ignorePatterns: ['/blog/tags/**','/album/***','/error-page/***'],
+          ignorePatterns: ['/blog/tags/**','/archive-page/**','/docs/**'],
           filename: 'sitemap.xml',
         },
         gtag: {
