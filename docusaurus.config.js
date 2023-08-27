@@ -152,7 +152,12 @@ const config = {
         defer: true,
       }
     ],
-    clientModules: [require.resolve('./inject-lodash.js')]
+    clientModules: [require.resolve('./inject-lodash.js')],
+    plugins: [
+      [
+        "docusaurus-plugin-less",{lessOptions:{javascriptEnabled: true}}
+      ]
+    ],
 };
 
 module.exports = config;
