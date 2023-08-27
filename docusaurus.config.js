@@ -91,8 +91,12 @@ const config = {
             ],
           },
           {
-            title: '官方账号',
+            title: '官方相关',
             items: [
+              {
+                label: '官方主页',
+                to: '/route-official',
+              },
               {
                 label: '哔哩哔哩-主页',
                 href: 'https://page.hosimiyasio.com/outlinks.html?target=https://space.bilibili.com/402417817',
@@ -100,20 +104,12 @@ const config = {
               {
                 label: '哔哩哔哩-直播间',
                 href: 'https://page.hosimiyasio.com/outlinks.html?target=https://live.bilibili.com/22047448',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://page.hosimiyasio.com/outlinks.html?target=https://twitter.com/Hosimiya_Sio',
               }
             ],
           },
           {
             title: '更多',
             items: [
-              {
-                label: '官方主页',
-                to: '/route-official',
-              },
               {
                 label: '版权相关',
                 to: '/copyright',
