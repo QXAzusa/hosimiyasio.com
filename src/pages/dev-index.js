@@ -1,5 +1,5 @@
 import React from 'react';
-import App from './Home';
+import App from '../../new-index';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import Layout from '@theme/Layout'
 
