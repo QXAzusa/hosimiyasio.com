@@ -66,3 +66,12 @@
     border-radius: 0;
     background: rgba(0, 0, 0, 0.1);
 }
+
+#__docusaurus_skipToContent_fallback{
+    background-image: url('https://static.qxazusa.xyz/public/image/bg_normal.png?x-image-process=style/webp');
+    background-size: cover;
+    height: 100%;
+    display: block;
+    background: fade(#000, 35);
+    border-color: #666;
+}
