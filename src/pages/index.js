@@ -47,7 +47,7 @@ function MyHero() {
         </div>
       </div>
       <div className={styles.rightContainer}>
-        <img id='indexImg' src='https://static.hosimiyasio.com/image/illustration_hsio_wm.png?eo-img.format=webp' alt='这是一张星宫汐的立绘，她张开嘴巴露出灿烂笑容，双眼睁得大大的，短发呈淡蓝色。在她的头顶上，有一只可爱的企鹅趴在那儿。整个场景透露出愉快和活泼的氛围。' />
+        <img id='indexImg' src='https://static.hosimiyasio.com/image/illustration_hsio_wm.png?x-image-process=style/webp' alt='这是一张星宫汐的立绘，她张开嘴巴露出灿烂笑容，双眼睁得大大的，短发呈淡蓝色。在她的头顶上，有一只可爱的企鹅趴在那儿。整个场景透露出愉快和活泼的氛围。' />
       </div>
     </div>
   )
