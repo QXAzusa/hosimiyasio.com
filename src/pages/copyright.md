@@ -5,10 +5,10 @@ comments: false
 ---
 # 版权相关
 
-## 首页插图
-版权归属 [星宫 汐](https://page.hosimiyasio.com/outlinks.html?target=https://space.bilibili.com/402417817)
+## 插图
+除单独标注外，包含‘星宫汐’ ‘星宫明’形象的版权归属于 [星宫汐](https://page.hosimiyasio.com/outlinks.html?target=https://space.bilibili.com/402417817)
 
-此图片已使用隐写技术处理，请勿盗用
+站点左上角Logo与favicon图标的版权归属于 [星宫汐](https://page.hosimiyasio.com/outlinks.html?target=https://space.bilibili.com/402417817)
 
 ## “历程”页
 ### 2023.07.02版本 [页面存档](../archive-page/20230702-timeline)
