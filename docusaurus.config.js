@@ -135,7 +135,11 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-      metadata: [{name: 'referrer', content: 'always'}],
+      metadata: [
+        {name: 'referrer', content: 'always'},
+        {name: 'keywords', content:'星宮汐,HosimiyaSio,Hosimiya,Sio'},
+        {name: 'description', content:'说中文和日语的喜欢玩游戏的百合系Vtuber星宫汐的非官方网站'}
+      ],
     }),
     scripts: [
       {
