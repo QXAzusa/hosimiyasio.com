@@ -9,7 +9,7 @@ Branch use to build production version
 ## Contact
 Have any question? 
 
-Email to [qxazusa@hosimiyasio.com](mailto:qxazusa@hosimiyasio.com) or use issue.
+Email to [git@qxazusa.xyz](mailto:git@qxazusa.xyz) or use issue.
 
 
 ## JetBrains Open Source License
