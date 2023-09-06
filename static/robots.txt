@@ -1,0 +1,16 @@
+User-agent: *
+Allow:/
+Disallow:/blog/tags
+Disallow:/archive-page
+Disallow:/docs
+Disallow:/about
+Disallow:/route-official
+
+User-agent: Sosospider
+Disallow: /
+User-agent: sogou spider
+Disallow: /
+User-agent: YodaoBot
+Disallow: /
+
+Sitemap: https://www.hosimiyasio.com/sitemap.xml
