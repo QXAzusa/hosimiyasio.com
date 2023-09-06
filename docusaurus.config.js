@@ -47,7 +47,7 @@ const config = {
         sitemap: {
           changefreq: 'daily',
           priority: 0.5,
-          ignorePatterns: ['/blog/tags/**','/archive-page/**','/docs/**'],
+          ignorePatterns: ['/blog/tags/**','/archive-page/**','/docs/**','/about','/old-index','/route-official'],
           filename: 'sitemap.xml',
         },
         gtag: {
