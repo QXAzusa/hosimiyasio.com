@@ -22,4 +22,4 @@ comments: false
 ### 哔哩哔哩私信
 UID: 148833361
 ### 邮箱
-[qxazusa@hosimiyasio.com](mailto:qxazusa@hosimiyasio.com)
+[git@qxazusa.xyz](mailto:git@qxazusa.xyz)
