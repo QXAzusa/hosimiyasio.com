@@ -95,7 +95,7 @@ const config = {
             items: [
               {
                 label: '官方主页',
-                to: '/route-official',
+                href: 'https://page.hosimiyasio.com/outlinks.html?target=https://hosimiyasio-official.com',
               },
               {
                 label: '哔哩哔哩-主页',
