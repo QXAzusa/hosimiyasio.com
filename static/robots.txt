@@ -1,6 +1,6 @@
 User-agent: *
 Allow:/
-Disallow:/blog/tags
+Disallow:/article/tags
 Disallow:/archive-page
 Disallow:/docs
 Disallow:/about
