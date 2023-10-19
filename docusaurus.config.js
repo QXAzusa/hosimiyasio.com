@@ -40,6 +40,8 @@ const config = {
           blogSidebarTitle: '所有文章',
           blogSidebarCount: 'ALL',
           postsPerPage: 'ALL',
+          path:'article',
+          routeBasePath:'article'
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -68,7 +70,7 @@ const config = {
           src: 'https://static.hosimiyasio.com/image/navbar_icon.ico',
         },
         items: [
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/article', label: 'Article', position: 'left'},
           {label:'历程',to:'/timeline'},
           {label:'字幕组招募',to:'/fansub-recruit'}
         ],
@@ -81,7 +83,7 @@ const config = {
             items: [
               {
                 label:'文章',
-                to:'/blog'
+                to:'/article'
               },
               {
                 label:'历程',

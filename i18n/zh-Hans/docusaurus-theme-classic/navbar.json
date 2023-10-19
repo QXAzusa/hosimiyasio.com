@@ -7,7 +7,7 @@
     "message": "Tutorial",
     "description": "Navbar item with label Tutorial"
   },
-  "item.label.Blog": {
+  "item.label.Article": {
     "message": "文章",
     "description": "Navbar item with label Blog"
   },
