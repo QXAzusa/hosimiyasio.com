@@ -9,5 +9,11 @@
           }
         ]
       }
-    ]
-  }
+    ],
+  "redirects": [
+    {
+      "source": "/blog/:path*",
+      "destination": "/article/:path*"
+    }
+  ]
+}
