@@ -64,7 +64,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: '汐明之恋 - Unofficial',
+        title: '汐明之恋 - 非官方主页',
         logo: {
           alt: 'Site Logo',
           src: 'https://static.hosimiyasio.com/image/navbar_icon.ico',
