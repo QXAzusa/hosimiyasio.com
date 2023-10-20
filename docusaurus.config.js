@@ -49,7 +49,7 @@ const config = {
         sitemap: {
           changefreq: 'daily',
           priority: 0.5,
-          ignorePatterns: ['/blog/tags/**','/archive-page/**','/docs/**','/about','/old-index','/route-official'],
+          ignorePatterns: ['/article/tags/**','/archive-page/**','/docs/**','/about'],
           filename: 'sitemap.xml',
         },
         gtag: {
