@@ -5,6 +5,8 @@ comments: false
 ---
 # 历程
 ## 2023年
+### 11月13日
+哔哩哔哩账号粉丝数突破500,000 [-> 相关动态](https://page.hosimiyasio.com/outlinks.html?target=https://t.bilibili.com/863152972084805668)
 ### 7月16日
 2023年生日会举办 [-> 直播回放](https://page.hosimiyasio.com/outlinks.html?target=https://b23.tv/BV1ij411o7VW)
 ### 7月5日
