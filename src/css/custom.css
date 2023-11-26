@@ -66,3 +66,8 @@
     border-radius: 0;
     background: rgba(0, 0, 0, 0.1);
 }
+*{
+    font-family: "Noto Sans SC", -apple-system, blinkmacsystemfont, "Segoe UI",
+    roboto, "Helvetica Neue", arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
