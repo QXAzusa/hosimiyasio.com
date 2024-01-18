@@ -144,10 +144,10 @@ const config = {
       ],
     }),
     scripts: [
-      {
-        src: 'https://cdn.staticfile.org/jquery/3.6.1/jquery.min.js',
-        async: false,
-      }//,
+      //{
+      //  src: 'https://cdn.staticfile.org/jquery/3.6.1/jquery.min.js',
+      //  async: false,
+      //},
       //{
       // src: '/img/i18n-0b19cb7a.js',
       //  async: true,
