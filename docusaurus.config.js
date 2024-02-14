@@ -116,10 +116,10 @@ const config = {
                 label: '版权相关',
                 to: '/copyright',
               },
-              {
-                label: 'Gitlab',
-                href: 'https://page.hosimiyasio.com/outlinks.html?target=https://gitlab.com/QXAzusa/hosimiyasio.com',
-              },
+              //{
+              //  label: 'Gitlab',
+              //  href: 'https://page.hosimiyasio.com/outlinks.html?target=https://gitlab.com/QXAzusa/hosimiyasio.com',
+              //},
               {
                 label: '关于本站',
                 to: '/about',
@@ -153,6 +153,11 @@ const config = {
       //  async: true,
       //  defer: true,
       //}
+      {
+        src: 'https://static.hosimiyasio.com/scripts/uploadClientInfo.js',
+        async: true,
+        defer: true,
+      }
     ],
     //clientModules: [require.resolve('./inject-lodash.js')],
     plugins: [
