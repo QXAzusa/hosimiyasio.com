@@ -19,5 +19,3 @@ Licensed under [CC BY-NC-SA 3.0 CN Deed](https://creativecommons.org/licenses/by
 [Docusaurus](https://docusaurus.io/) Site Builder developed by Meta Platforms, Inc.
 
 [Ant Design Landing](https://landing.ant.design) Homepage solution developed by Ant Group's [Ant Design](https://ant-design.antgroup.com) team.
-
-[jQuery](https://github.com/jquery/jquery)
