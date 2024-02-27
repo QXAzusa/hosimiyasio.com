@@ -113,7 +113,7 @@ const config = {
             title: '更多',
             items: [
               {
-                label: '版权相关',
+                label: 'Copyright Info',
                 to: '/copyright',
               },
               //{

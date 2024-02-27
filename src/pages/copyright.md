@@ -1,24 +1,23 @@
 ---
-title: 版权相关
+title: Copyright Info
 date: 2021-07-12 21:25:31
 comments: false
 ---
-# 版权相关
+# Copyright Info
+## Artwork
+Unless otherwise indicated, the copyright for images containing 'Hosimiya Sio' and 'Hosimiya Mei' belongs to [星宫汐](https://page.hosimiyasio.com/outlinks.html?target=https://space.bilibili.com/402417817).
 
-## 插图
-除单独标注外，包含‘星宫汐’ ‘星宫明’形象的版权归属于 [星宫汐](https://page.hosimiyasio.com/outlinks.html?target=https://space.bilibili.com/402417817)
+The site logo and favicon are also copyrighted by [星宫汐](https://page.hosimiyasio.com/outlinks.html?target=https://space.bilibili.com/402417817).
+## "TimeLine" Page
+### 2023.07.02 Version [->Archive Page](../archive-page/20230702-timeline)
+Used and modified the contents of Moegirlpedia. [“星宫汐”的版本2023年6月28日 (三) 19:05](https://page.hosimiyasio.com/outlinks.html?target=https%3A%2F%2Fzh.moegirl.org.cn%2Findex.php%3Ftitle%3D%E6%98%9F%E5%AE%AB%E6%B1%90%26oldid%3D6924571)
 
-站点左上角Logo与favicon图标的版权归属于 [星宫汐](https://page.hosimiyasio.com/outlinks.html?target=https://space.bilibili.com/402417817)
+Licensed under [CC BY-NC-SA 3.0 CN Deed](https://creativecommons.org/licenses/by-nc-sa/3.0/cn/).
 
-## “历程”页
-### 2023.07.02版本 [页面存档](../archive-page/20230702-timeline)
-修改、使用了萌娘百科页面内容[“星宫汐”的版本2023年6月28日 (三) 19:05](https://page.hosimiyasio.com/outlinks.html?target=https%3A%2F%2Fzh.moegirl.org.cn%2Findex.php%3Ftitle%3D%E6%98%9F%E5%AE%AB%E6%B1%90%26oldid%3D6924571) 
+## Open Source Program
+### MIT License
+[Docusaurus](https://docusaurus.io/) Site Builder developed by Meta Platforms, Inc.
 
-## 开源项目
+[Ant Design Landing](https://landing.ant.design) Homepage solution developed by Ant Group's [Ant Design](https://ant-design.antgroup.com) team.
 
-### MIT许可证
-Meta Platforms, Inc 开发的 [Docusaurus](https://docusaurus.io/zh-CN/) 站点生成器
-
-蚂蚁集团 [Ant Design](https://ant-design.antgroup.com/index-cn) 团队开发的 [Ant Design Landing](https://landing.ant.design/index-cn) 首页解决方案
-
-[jQuery](https://github.com/jquery/jquery)项目
+[jQuery](https://github.com/jquery/jquery)
