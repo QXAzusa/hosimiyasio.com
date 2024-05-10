@@ -1,7 +1,4 @@
-import _ from 'lodash';
-
 if (typeof window !== 'undefined') {
-    console.log('Lodash version:', _.VERSION);
     window.addEventListener('keydown', function (e) {
         if (e.ctrlKey && (e.key === 'a' || e.key === 'c' || e.key === 'i' || e.key === 'j' || e.key === 'p' || e.key === 's' || e.key === 'u' || e.key === 'v' || e.key === 'F6')) {
             e.preventDefault();
