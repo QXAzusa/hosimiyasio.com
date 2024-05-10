@@ -51,11 +51,7 @@ const config = {
           priority: 0.5,
           ignorePatterns: ['/article/tags/**','/archive-page/**','/docs/**','/about'],
           filename: 'sitemap.xml',
-        },
-        gtag: {
-          trackingID: 'G-K43BZT70Q4',
-          anonymizeIP: false,
-        },
+        }
       }),
     ],
   ],
