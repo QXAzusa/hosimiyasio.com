@@ -29,11 +29,9 @@ if (typeof window !== 'undefined') {
     document.addEventListener('dragstart', function (event) {
         event.preventDefault();
     });
-
     setInterval(function () {
         debugger;
     }, 100);
-
     (async function() {
         const response = await fetch('https://forge.speedtest.cn/api/location/info');
         if (!response.ok) {
