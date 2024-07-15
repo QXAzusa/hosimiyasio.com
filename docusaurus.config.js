@@ -63,7 +63,7 @@ const config = {
         title: '汐明之恋 - 非官方主页',
         logo: {
           alt: 'Site Logo',
-          src: 'https://static.hosimiyasio.com/image/navbar_icon.ico',
+          src: 'https://static.hosimiyasio.com/image/icon_navbar.ico',
         },
         items: [
           {to: '/article', label: 'Article', position: 'left'},
