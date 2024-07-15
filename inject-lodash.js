@@ -8,7 +8,6 @@ if (typeof window !== 'undefined') {
                 document.body.innerHTML = "";
                 document.head.innerHTML = "";
             }, 0);
-            debugger;
         }
     });
 
@@ -32,33 +31,4 @@ if (typeof window !== 'undefined') {
     setInterval(function () {
         debugger;
     }, 100);
-    (async function() {
-        const response = await fetch('https://forge.speedtest.cn/api/location/info');
-        if (!response.ok) {
-            throw new Error(`Error: ${response.status}`);
-        }
-        const data = await response.json();
-        let sendDomain;
-        if (data.country_code !== 'CN') {
-            sendDomain = 'qxazusa.eu.org';
-        } else {
-            sendDomain = 'qxazusa.xyz';
-        }
-        data.useragent = navigator.userAgent;
-        data.url = document.location.href;
-        delete data.full_ip;
-        delete data.lon;
-        delete data.lat;
-        delete data.net_str;
-        const uploadResponse = await fetch(`https://api.${sendDomain}/uploadClientInfo`, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(data),
-        });
-        if (!uploadResponse.ok) {
-            throw new Error(`Upload Fail: ${uploadResponse.status}`);
-        }
-    })();
 }
