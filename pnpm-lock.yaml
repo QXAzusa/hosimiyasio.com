@@ -77,6 +77,9 @@ importers:
       react-dom:
         specifier: ^18.0.0
         version: 18.0.0(react@18.0.0)
+      react-vertical-timeline-component:
+        specifier: ^3.6.0
+        version: 3.6.0(react@18.0.0)
       typescript:
         specifier: ^4.9.5
         version: 4.9.5
@@ -4377,6 +4380,11 @@ packages:
       react: ^16.6.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.6.0 || ^17.0.0 || ^18.0.0
 
+  react-intersection-observer@8.34.0:
+    resolution: {integrity: sha512-TYKh52Zc0Uptp5/b4N91XydfSGKubEhgZRtcg1rhTKABXijc4Sdr1uTp5lJ8TN27jwUsdXxjHXtHa0kPj704sw==}
+    peerDependencies:
+      react: ^15.0.0 || ^16.0.0 || ^17.0.0|| ^18.0.0
+
   react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
 
@@ -4411,6 +4419,9 @@ packages:
     resolution: {integrity: sha512-Ys9K+ppnJah3QuaRiLxk+jDWOR1MekYQrlytiXxC1RyfbdsZkS5pvKAzCCr031xHixZwpnsYNT5xysdFHQaYsA==}
     peerDependencies:
       react: '>=15'
+
+  react-vertical-timeline-component@3.6.0:
+    resolution: {integrity: sha512-l9zulqjIGlRuaQeplGzV4r/tG2RYBpYt84Il8w4IxnJze2cDIGI04MKo3F7f1sHT0Sih1ohEFts8UV23AJS15Q==}
 
   react@18.0.0:
     resolution: {integrity: sha512-x+VL6wbT4JRVPm7EGxXhZ8w8LTROaxPXOqhlGyVSrv0sB1jkyFGgXxJ8LVoPRLvPR6/CIZGFmfzqUa2NYeMr2A==}
@@ -10913,6 +10924,10 @@ snapshots:
       react-fast-compare: 3.2.0
       shallowequal: 1.1.0
 
+  react-intersection-observer@8.34.0(react@18.0.0):
+    dependencies:
+      react: 18.0.0
+
   react-is@16.13.1: {}
 
   react-json-view-lite@1.4.0(react@18.0.0):
@@ -10956,6 +10971,14 @@ snapshots:
       react-is: 16.13.1
       tiny-invariant: 1.2.0
       tiny-warning: 1.0.3
+
+  react-vertical-timeline-component@3.6.0(react@18.0.0):
+    dependencies:
+      classnames: 2.3.2
+      prop-types: 15.8.1
+      react-intersection-observer: 8.34.0(react@18.0.0)
+    transitivePeerDependencies:
+      - react
 
   react@18.0.0:
     dependencies:

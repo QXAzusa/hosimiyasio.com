@@ -68,6 +68,7 @@ const config = {
         items: [
           {to: '/article', label: 'Article', position: 'left'},
           {label:'历程',to:'/timeline'},
+          {to: '/tachie', label: '立绘', position: 'left'},
           {label:'字幕组招募',to:'/fansub-recruit'}
         ],
       },
@@ -85,6 +86,10 @@ const config = {
                 label:'历程',
                 to:'/timeline'
               },
+              {
+                label:'立绘',
+                to:'/tachie'
+              },
               {label:'字幕组招募',to:'/fansub-recruit'}
             ],
           },
@@ -94,6 +99,10 @@ const config = {
               {
                 label: '官方主页',
                 href: 'https://page.hosimiyasio.com/outlinks.html?target=https://hosimiyasio-official.com',
+              },
+              {
+                label: '官方主页(镜像)',
+                href: 'https://mirror-official.hosimiyasio.com',
               },
               {
                 label: '哔哩哔哩-主页',
