@@ -4,8 +4,9 @@ date: 2021-07-12 21:25:31
 comments: false
 ---
 # 历程
+若未特别注明, 均为东八区时间
 ## 2024年
-### 7月17日
+### 7月16日
 2024年生日会举办 [-> 直播回放](https://page.hosimiyasio.com/outlinks.html?target=https://b23.tv/BV16M4m127hi)
 ### 2月10日
 新衣发布回暨50万粉丝纪念直播 [-> 直播回放](https://page.hosimiyasio.com/outlinks.html?target=https://b23.tv/BV1SS421N7PQ)
