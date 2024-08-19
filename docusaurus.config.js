@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '汐明之恋 - 星宫汐',
+  title: '汐明之恋 - 星宫汐(Unofficial)',
   tagline: 'Dinosaurs are cool',
   url: 'https://www.hosimiyasio.com',
   baseUrl: '/',
@@ -60,7 +60,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: '汐明之恋 - 非官方主页',
+        title: '汐明之恋 - Unofficial',
         logo: {
           alt: 'Site Logo',
           src: 'https://static.hosimiyasio.com/image/icon_navbar.ico',
