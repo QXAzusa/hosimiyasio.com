@@ -66,9 +66,9 @@ const config = {
           src: 'https://static.hosimiyasio.com/image/icon_navbar.ico',
         },
         items: [
-          {to: '/article', label: 'Article', position: 'left'},
+          {label: 'Article', to: '/article', position: 'left'},
           {label:'历程',to:'/timeline'},
-          {to: '/tachie', label: '立绘', position: 'left'},
+          {label: '立绘', to:'/tachie', position: 'left'},
           {label:'字幕组招募',to:'/fansub-recruit'}
         ],
       },
@@ -78,18 +78,9 @@ const config = {
           {
             title: '网站地图',
             items: [
-              {
-                label:'文章',
-                to:'/article'
-              },
-              {
-                label:'历程',
-                to:'/timeline'
-              },
-              {
-                label:'立绘',
-                to:'/tachie'
-              },
+              {label:'文章',to:'/article'},
+              {label:'历程',to:'/timeline'},
+              {label:'立绘',to:'/tachie'},
               {label:'字幕组招募',to:'/fansub-recruit'}
             ],
           },
@@ -121,10 +112,10 @@ const config = {
                 label: 'Copyright',
                 to: '/copyright',
               },
-              //{
-              //  label: 'Gitlab',
-              //  href: 'https://page.hosimiyasio.com/outlinks.html?target=https://gitlab.com/QXAzusa/hosimiyasio.com',
-              //},
+              {
+                label: 'Github Repo',
+                href: 'https://page.hosimiyasio.com/outlinks.html?target=https://github.com/QXAzusa/hosimiyasio.com',
+              },
               {
                 label: '关于本站',
                 to: '/about',
