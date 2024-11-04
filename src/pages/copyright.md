@@ -1,14 +1,21 @@
 ---
-title: 版权相关
+title: Copyright
 date: 2021-07-12 21:25:31
 comments: false
 ---
-# 版权相关
+# Copyright Info
+## Artwork
+Unless otherwise indicated, the copyright for images containing 'Hosimiya Sio' and 'Hosimiya Mei' belongs to [星宫汐](https://page.hosimiyasio.com/outlinks.html?target=https://space.bilibili.com/402417817).
 
-## 首页插图
-版权归属 [星宫 汐](https://link.hosimiyasio.com/?target=https://space.bilibili.com/402417817)
+The site logo and favicon are also copyrighted by [星宫汐](https://page.hosimiyasio.com/outlinks.html?target=https://space.bilibili.com/402417817).
 
-此图片已使用隐写技术处理，请勿盗用
-## “历程”页
-### 2023.07.02版本 [页面存档](../archive-page/20230702-timeline)
-修改、使用了萌娘百科页面内容[“星宫汐”的版本2023年6月28日 (三) 19:05](https://link.hosimiyasio.com/?target=https://zh.moegirl.org.cn/index.php?title=%E6%98%9F%E5%AE%AB%E6%B1%90&oldid=6924571) 
+## Open Source Program
+### MIT License
+[Docusaurus](https://docusaurus.io/) Site Builder developed by Meta Platforms, Inc.
+
+[Ant Design Landing](https://landing.ant.design) Homepage solution developed by Ant Group's [Ant Design](https://ant-design.antgroup.com) team.
+
+[stephane-monnot/react-vertical-timeline](https://github.com/stephane-monnot/react-vertical-timeline) used to build the timeline on the [tachie](../tachie) page.
+
+### ISC License
+[zpao/qrcode.react](https://github.com/zpao/qrcode.react) QR Code generator for [fansub-recruit](../fansub-recruit) page.

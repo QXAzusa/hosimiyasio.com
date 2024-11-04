@@ -1,6 +1,6 @@
 ---
 title: 有关公会问题的报告
-slug: report-mgwh
+slug: report-mgcm
 date: 2023-07-04 20:28:00
 authors: [hsio,translator_neo]
 tags: ['事件报告']
@@ -8,7 +8,7 @@ tags: ['事件报告']
 私は6月30日をもって前のギルドを脱退しました。
 <!--truncate-->
 ## 原文
-![示例](./exit-msg.png)
+![一个哔哩哔哩系统通知，提示已退出“萌鸽传媒”公会](./exit-msg.png?x-image-process=style/webp)
 今回はギルドについてお話したいと思います。
 
 私は6月30日をもって前のギルドを脱退しました。

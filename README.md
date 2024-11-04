@@ -1,41 +1,22 @@
-# Website
+# Source Code Of www.hosimiyasio.com
+Based on Docusaurus modifications
+## Branchs
+### dev
+Branch for the development phase
+### main
+Branch use to build production version
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+## Contact
+Have any question? 
 
-### Installation
+Email to [git@qxazusa.xyz](mailto:git@qxazusa.xyz) or use issue.
 
-```
-$ yarn
-```
 
-### Local Development
+## JetBrains Open Source License
+This project relies heavily on JetBrains™ WebStorm, thanks to JetBrains s.r.o for providing the [Open Source License](https://www.jetbrains.com/community/opensource/#support) for this project.
 
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+If you are also passionate about development and regularly use JetBrains s.r.o products, you can also try to [apply](https://www.jetbrains.com/shop/eform/opensource) an open source license from JetBrains for core developers to use.
+<figure style="width: min-content">
+    <img src="https://resources.jetbrains.com/storage/products/company/brand/logos/WebStorm_icon.png" width="200" height="200" alt="WebStorm Logo">
+    <figcaption>Copyright © 2022 JetBrains s.r.o. <br>PyCharm and the PyCharm logo are registered trademarks of JetBrains s.r.o.</figcaption>
+</figure>

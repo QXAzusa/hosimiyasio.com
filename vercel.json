@@ -1,0 +1,19 @@
+{
+    "headers": [
+      {
+        "source": "/(.*)",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, must-revalidate"
+          }
+        ]
+      }
+    ],
+  "redirects": [
+    {
+      "source": "/blog/:path*",
+      "destination": "/article/:path*"
+    }
+  ]
+}

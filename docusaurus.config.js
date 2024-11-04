@@ -6,13 +6,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '汐明之恋 - 星宫汐',
+  title: '汐明之恋 - 星宫汐(Unofficial)',
   tagline: 'Dinosaurs are cool',
   url: 'https://www.hosimiyasio.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: '//static.qxazusa.xyz/sio/image/favicon.jpg?x-image-process=style/favicon',
+  favicon: 'https://static.hosimiyasio.com/image/favicon.jpg',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -40,6 +40,8 @@ const config = {
           blogSidebarTitle: '所有文章',
           blogSidebarCount: 'ALL',
           postsPerPage: 'ALL',
+          path:'article',
+          routeBasePath:'article'
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -47,9 +49,9 @@ const config = {
         sitemap: {
           changefreq: 'daily',
           priority: 0.5,
-          ignorePatterns: ['/blog/tags/**','/album/***','/error-page/***'],
+          ignorePatterns: ['/article/tags/**','/archive-page/**','/docs/**','/about','/wiki'],
           filename: 'sitemap.xml',
-        },
+        }
       }),
     ],
   ],
@@ -61,11 +63,13 @@ const config = {
         title: '汐明之恋 - Unofficial',
         logo: {
           alt: 'Site Logo',
-          src: '//static.qxazusa.xyz/sio/image/navbar_icon.ico',
+          src: 'https://static.hosimiyasio.com/image/icon_navbar.ico',
         },
         items: [
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {label:'历程',to:'/timeline'}
+          {label: 'Article', to: '/article', position: 'left'},
+          {label:'历程',to:'/timeline'},
+          {label: '立绘', to:'/tachie', position: 'left'},
+          {label:'字幕组招募',to:'/fansub-recruit'}
         ],
       },
       footer: {
@@ -74,30 +78,30 @@ const config = {
           {
             title: '网站地图',
             items: [
-              {
-                label:'文章',
-                to:'/blog'
-              },
-              {
-                label:'历程',
-                to:'/timeline'
-              }
+              {label:'文章',to:'/article'},
+              {label:'历程',to:'/timeline'},
+              {label:'立绘',to:'/tachie'},
+              {label:'字幕组招募',to:'/fansub-recruit'}
             ],
           },
           {
-            title: '官方账号',
+            title: '官方相关',
             items: [
               {
+                label: '官方主页',
+                href: 'https://page.hosimiyasio.com/outlinks.html?target=https://hosimiyasio-official.com',
+              },
+              {
+                label: '官方主页(镜像)',
+                href: 'https://mirror-official.hosimiyasio.com',
+              },
+              {
                 label: '哔哩哔哩-主页',
-                href: 'https://link.hosimiyasio.com/?target=https://space.bilibili.com/402417817',
+                href: 'https://page.hosimiyasio.com/outlinks.html?target=https://space.bilibili.com/402417817',
               },
               {
                 label: '哔哩哔哩-直播间',
-                href: 'https://link.hosimiyasio.com/?target=https://live.bilibili.com/22047448',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://link.hosimiyasio.com/?target=https://twitter.com/Hosimiya_Sio',
+                href: 'https://page.hosimiyasio.com/outlinks.html?target=https://live.bilibili.com/22047448',
               }
             ],
           },
@@ -105,12 +109,12 @@ const config = {
             title: '更多',
             items: [
               {
-                label: '官方主页',
-                href: 'https://link.hosimiyasio.com/?target=https://hosimiyasio-official.com/',
+                label: 'Copyright',
+                to: '/copyright',
               },
               {
-                label: '版权相关',
-                to: '/copyright',
+                label: 'Github Repo',
+                href: 'https://page.hosimiyasio.com/outlinks.html?target=https://github.com/QXAzusa/hosimiyasio.com',
               },
               {
                 label: '关于本站',
@@ -119,34 +123,30 @@ const config = {
             ],
           },
         ],
-        copyright: `<div id="footer_pc">Copyright © ${new Date().getFullYear()} QXAzusa&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Powered by Docusaurus&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener" style="text-decoration: none;color:var(--ifm-footer-link-color)!important">苏ICP备2021044611号-2</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.beian.gov.cn/portal/registerSystemInfo" target="_blank" rel="noopener" style="display:none;text-decoration: none;color:var(--ifm-footer-link-color)!important">苏公网安备 00000000000000号</a><br></div>
+        copyright: `<div id="footer_pc">Copyright © ${new Date().getFullYear()} QXAzusa&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Powered by Docusaurus&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener" style="text-decoration: none;color:var(--ifm-footer-link-color)!important">苏ICP备2021044611号-2</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://beian.mps.gov.cn/#/query/webSearch?code=32081202000374" target="_blank" rel="noopener" style="text-decoration: none;color:var(--ifm-footer-link-color)!important">苏公网安备 32081202000374号</a><br></div>
         <div id="footer_mobile">
         <br><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener" style="text-decoration: none;color:var(--ifm-footer-link-color)!important">苏ICP备2021044611号-2</a>
-        <br><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=32081202000264" target="_blank" rel="noopener" style="display :none;text-decoration: none;color:var(--ifm-footer-link-color)!important">苏公网安备 00000000000000号</a><br>
+        <br><a href="https://beian.mps.gov.cn/#/query/webSearch?code=32081202000374" target="_blank" rel="noopener" style="text-decoration: none;color:var(--ifm-footer-link-color)!important">苏公网安备 32081202000374号</a><br>
         Copyright © ${new Date().getFullYear()} QXAzusa
         <br>Powered by Docusaurus`},
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-      metadata: [{name: 'referrer', content: 'always'},{name: 'unami-website-id', content: 'b24fb8de-890f-43b3-bc51-33d742128385'}],
+      metadata: [
+        {name: 'referrer', content: 'always'},
+        {name: 'keywords', content:'星宮汐,HosimiyaSio,Hosimiya,Sio'},
+        {name: 'description', content:'说中文和日语的喜欢玩游戏的百合系Vtuber星宫汐的非官方网站'}
+      ],
     }),
     scripts: [
-      {
-        src: 'https://cdn.staticfile.org/jquery/3.6.1/jquery.min.js',
-        async: false,
-      },
-      {
-        src: 'https://static.qxazusa.xyz/public/script/s-l.min.js',
-        async: true,
-        defer: true,
-      },
-      {
-        src: 'https://static.qxazusa.xyz/sio/scripts/i18n-0b19cb7a.js',
-        async: true,
-        defer: true,
-      }
-    ]
+    ],
+    clientModules: [require.resolve('./inject-lodash.js')],
+    plugins: [
+      [
+        "docusaurus-plugin-less",{lessOptions:{javascriptEnabled: true}}
+      ]
+    ],
 };
 
 module.exports = config;
