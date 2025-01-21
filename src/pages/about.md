@@ -5,21 +5,8 @@ comments: false
 ---
 # 关于本站
 非官方网站，运营者“浅笑Azusa”
-## 内容说明
-### 文章
-在不违反字幕组规定的情况下发布官方&字幕组的通知
-### 历程
-记录星宮 汐的发展历程
-## 计划内容
-### Twitter推文翻译发布
-转载并翻译每条推文
-### FanArt展示
-接收粉丝绘图，并对外展示
-### 相关链接入口
-如意见反馈收集问卷、活动信息征集问卷链接等
-### to be continued...
 ## 联系方式
 ### 哔哩哔哩私信
 UID: 148833361
 ### 邮箱
-[git@qxazusa.xyz](mailto:git@qxazusa.xyz)
+[website@hosimiyasio.com](mailto:website@hosimiyasio.com)
