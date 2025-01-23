@@ -5,6 +5,11 @@ Disallow:/archive-page
 Disallow:/docs
 Disallow:/about
 Disallow:/route-official
+Disallow:/wiki
+Disallow:/timeline
+Disallow:/tachie
+Disallow:/fansub-recruit
+Disallow:/copyright
 
 User-agent: Sosospider
 Disallow: /
