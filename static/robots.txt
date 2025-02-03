@@ -11,27 +11,19 @@ Disallow:/tachie
 Disallow:/fansub-recruit
 Disallow:/copyright
 
-User-agent: Sosospider
-Disallow: /
-User-agent: sogou spider
-Disallow: /
-User-agent: YodaoBot
-Disallow: /
 User-agent: Baiduspider
 Disallow: /
+
 User-agent: 360Spider
 Disallow: /
-User-agent: 360Spider-Image
+
+User-agent: Sogou Spider
 Disallow: /
-User-agent: 360Spider-Video
+
+User-agent: YisouSpider
 Disallow: /
-User-agent:Sogou web spider
-Disallow:/
-User-agent:Sogou wap spider
-Disallow:/
-User-agent:YisouSpider
-Disallow:/
-User-agent:BaiduSpider-ads
-Disallow:/
+
+User-agent: Bytespider
+Disallow: /
 
 Sitemap: https://www.hosimiyasio.com/sitemap.xml
