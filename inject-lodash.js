@@ -4,6 +4,7 @@ if (typeof window !== 'undefined') {
             e.preventDefault();
         }
         if (e.key === 'F12') {
+            console.warn('F12 is pressed, self destroyed');
             setTimeout(function () {
                 document.body.innerHTML = "";
                 document.head.innerHTML = "";
