@@ -1,0 +1,56 @@
+name: Deploy to TencentCloud
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+
+        permissions:
+            # Give the default GITHUB_TOKEN write permission to commit and push the
+            # added or changed files to the repository.
+            contents: write
+
+        steps:
+            - uses: actions/checkout@v4
+              with:
+                fetch-depth: 0
+            - uses: actions/setup-node@v4
+              with:
+                node-version: 18
+                cache: npm
+
+            - name: Install dependencies
+              run: pnpm ci
+            - name: Build website
+              run: pnpm build
+
+            - name: Cache node_modules.cache
+              uses: actions/cache@v4
+              with:
+                path: |
+                  ./node_modules/.cache
+
+            - name: Install coscmd
+              run: sudo pip install coscmd
+            - name: Configure coscmd
+              env:
+                SECRET_ID: ${{ secrets.SecretId }}
+                SECRET_KEY: ${{ secrets.SecretKey }}
+                BUCKET: hsio-website-1301015343
+                REGION: ap-shanghai
+              run: coscmd config -a $SECRET_ID -s $SECRET_KEY -b $BUCKET -r $REGION
+            - name: Upload
+              run: coscmd upload -rfs --delete build/ /
+
+            - name: Install tccli
+              run: sudo pip install tccli 
+            - name: Configure tccli secretId
+              run: tccli configure set secretId ${{ secrets.SecretId }}
+            - name: Configure tccli secretKey 
+              run: tccli configure set secretKey ${{ secrets.SecretKey }}
+            - name: Flush CDN@CN
+              run: tccli teo CreatePurgeTask --cli-unfold-argument --ZoneId zone-37925m4imngy --Type purge_host --Method invalidate --Targets 'https://www.hosimiyasio.com/'

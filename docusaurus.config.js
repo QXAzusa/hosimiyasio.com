@@ -16,8 +16,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  //organizationName: 'facebook', // Usually your GitHub org/user name.
+  //projectName: 'docusaurus', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -26,7 +26,10 @@ const config = {
     defaultLocale: 'zh-Hans',
     locales: ['zh-Hans'],
   },
-
+  future: {
+    v4: true,
+    experimental_faster: true,
+  },
   presets: [
     [
       'classic',
@@ -92,10 +95,6 @@ const config = {
                 href: 'https://page.hosimiyasio.com/outlinks.html?target=https://hosimiyasio-official.com',
               },
               {
-                label: '官方主页(镜像)',
-                href: 'https://mirror-official.hosimiyasio.com',
-              },
-              {
                 label: '哔哩哔哩-主页',
                 href: 'https://page.hosimiyasio.com/outlinks.html?target=https://space.bilibili.com/402417817',
               },
@@ -128,7 +127,7 @@ const config = {
         <br><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener" style="text-decoration: none;color:var(--ifm-footer-link-color)!important">苏ICP备2021044611号-2</a>
         <br><a href="https://beian.mps.gov.cn/#/query/webSearch?code=32081202000374" target="_blank" rel="noopener" style="text-decoration: none;color:var(--ifm-footer-link-color)!important">苏公网安备 32081202000374号</a><br>
         Copyright © ${new Date().getFullYear()} QXAzusa
-        <br>Powered by Docusaurus`},
+        <br>Powered by Docusaurus</div>`},
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
