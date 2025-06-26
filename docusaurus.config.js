@@ -127,7 +127,7 @@ const config = {
         <br><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener" style="text-decoration: none;color:var(--ifm-footer-link-color)!important">苏ICP备2021044611号-2</a>
         <br><a href="https://beian.mps.gov.cn/#/query/webSearch?code=32081202000374" target="_blank" rel="noopener" style="text-decoration: none;color:var(--ifm-footer-link-color)!important">苏公网安备 32081202000374号</a><br>
         Copyright © ${new Date().getFullYear()} QXAzusa
-        <br>Powered by Docusaurus`},
+        <br>Powered by Docusaurus</div>`},
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
