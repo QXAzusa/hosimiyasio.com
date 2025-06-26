@@ -32,12 +32,6 @@ jobs:
             - name: Build website
               run: pnpm build
 
-            - name: Cache node_modules.cache
-              uses: actions/cache@v4
-              with:
-                path: |
-                  ./node_modules/.cache
-
             - name: Install coscmd
               run: sudo pip install coscmd
             - name: Configure coscmd
