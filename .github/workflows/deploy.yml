@@ -41,6 +41,8 @@ jobs:
                 BUCKET: hsio-website-1301015343
                 REGION: ap-shanghai
               run: coscmd config -a $SECRET_ID -s $SECRET_KEY -b $BUCKET -r $REGION
+            - name: Clean js files
+              run: coscmd delete -r assets/js
             - name: Upload
               run: coscmd upload -rfs --delete build/ /
 
@@ -51,4 +53,4 @@ jobs:
             - name: Configure tccli secretKey 
               run: tccli configure set secretKey ${{ secrets.SecretKey }}
             - name: Flush CDN@CN
-              run: tccli teo CreatePurgeTask --cli-unfold-argument --ZoneId zone-37925m4imngy --Type purge_host --Method invalidate --Targets 'https://www.hosimiyasio.com/'
+              run: tccli teo CreatePurgeTask --cli-unfold-argument --ZoneId zone-37925m4imngy --Type purge_host --Method invalidate --Targets 'www.hosimiyasio.com'
