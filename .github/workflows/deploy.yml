@@ -42,7 +42,7 @@ jobs:
                 REGION: ap-shanghai
               run: coscmd config -a $SECRET_ID -s $SECRET_KEY -b $BUCKET -r $REGION
             - name: Clean js files
-              run: coscmd delete -r assets/js
+              run: coscmd delete -r assets/js -f
             - name: Upload
               run: coscmd upload -rfs --delete build/ /
 
