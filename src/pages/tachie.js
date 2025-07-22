@@ -8,25 +8,25 @@ const PhotoAlbum = () => {
         {
           year: 2024,
           images: [
-            { src: 'https://static.hosimiyasio.com/image/tachie_202402.jpg', description: '' }
+            { src: '/img/tachie_202402.jpg', description: '' }
           ]
         },
         {
             year: 2022,
             images: [
-              { src: 'https://static.hosimiyasio.com/image/tachie_202207.jpg', description: '' }
+              { src: '/img/tachie_202207.jpg', description: '' }
             ]
         },
         {
             year: 2021,
             images: [
-              { src: 'https://static.hosimiyasio.com/image/tachie_202112.jpg', description: '' }
+              { src: '/img/tachie_202112.jpg', description: '' }
             ]
         },
         {
           year: 2020,
           images: [
-            { src: 'https://static.hosimiyasio.com/image/tachie_2020.jpg', description: '' }
+            { src: '/img/tachie_2020.jpg', description: '' }
           ]
         },
       ];
