@@ -45,12 +45,3 @@ jobs:
               run: coscmd delete -r assets/js -f
             - name: Upload
               run: coscmd upload -rfs --delete build/ /
-
-            - name: Install tccli
-              run: sudo pip install tccli 
-            - name: Configure tccli secretId
-              run: tccli configure set secretId ${{ secrets.SecretId }}
-            - name: Configure tccli secretKey 
-              run: tccli configure set secretKey ${{ secrets.SecretKey }}
-            - name: Flush CDN@CN
-              run: tccli teo CreatePurgeTask --cli-unfold-argument --ZoneId zone-37925m4imngy --Type purge_host --Method invalidate --Targets 'www.hosimiyasio.com'
