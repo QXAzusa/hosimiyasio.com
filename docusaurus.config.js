@@ -52,7 +52,7 @@ const config = {
         sitemap: {
           changefreq: 'daily',
           priority: 0.5,
-          ignorePatterns: ['/article/tags/**','/archive-page/**','/docs/**','/about','/wiki'],
+          ignorePatterns: ['/article/**','/archive-page/**','/docs/**','/about','/wiki','/copyright','/fansub-recruit','/tachie','/timeline'],
           filename: 'sitemap.xml',
         }
       }),
@@ -69,10 +69,8 @@ const config = {
           src: '/img/icon_navbar.ico',
         },
         items: [
-          {label: 'Article', to: '/article', position: 'left'},
           {label:'历程',to:'/timeline'},
           {label: '立绘', to:'/tachie', position: 'left'},
-          {label:'字幕组招募',to:'/fansub-recruit'}
         ],
       },
       footer: {
@@ -81,10 +79,8 @@ const config = {
           {
             title: '网站地图',
             items: [
-              {label:'文章',to:'/article'},
               {label:'历程',to:'/timeline'},
-              {label:'立绘',to:'/tachie'},
-              {label:'字幕组招募',to:'/fansub-recruit'}
+              {label:'立绘',to:'/tachie'}
             ],
           },
           {
